@@ -1,9 +1,7 @@
-name: SpaceONE CI test
+name: SpaceONE CI tag
 
 on:
   push:
-    branches:
-      - master
     tags: "**"
   workflow_dispatch:
 
