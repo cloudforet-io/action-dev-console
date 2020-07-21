@@ -1,4 +1,4 @@
-name: SpaceONE CI dev
+name: SpaceONE CI test
 
 on:
   push:
@@ -14,3 +14,4 @@ jobs:
       - run: |
           echo ${{ github.ref }}
           echo ${{ github.event }}
+          echo ${${{ github.ref }}##*/}
