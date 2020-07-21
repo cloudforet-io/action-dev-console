@@ -1,11 +1,10 @@
-name: SpaceONE CI tag
+name: SpaceONE CI no-tag
 
 on:
   push:
     branches:
       - master
       - dev
-    tags:
   workflow_dispatch:
 
 jobs:
