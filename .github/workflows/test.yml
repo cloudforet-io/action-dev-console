@@ -1,0 +1,16 @@
+name: SpaceONE CI dev
+
+on:
+  push:
+    tags:
+  workflow_dispatch:
+
+jobs:
+  initialize:
+    if: github.repository_owner == 'spaceone-dev'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          echo ${{ github.ref }}
+          echo ${{ github.event.tag }}
