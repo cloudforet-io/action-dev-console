@@ -2,8 +2,6 @@ name: SpaceONE CI dev
 
 on:
   push:
-    branches:
-      - mater
     tags:
       - "**"
   workflow_dispatch:
