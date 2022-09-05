@@ -6,7 +6,7 @@
 #  workflow_dispatch:
 #jobs:
 #  cd:
-#    if: github.repository_owner == 'spaceone-dev'
+#    if: github.repository_owner == 'cloudforet-io'
 #    runs-on: ubuntu-latest
 #    steps:
 #      - name: git clone

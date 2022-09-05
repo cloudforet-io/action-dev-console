@@ -9,7 +9,7 @@ on:
 
 jobs:
   hello:
-    if: github.repository_owner == 'spaceone-dev'
+    if: github.repository_owner == 'cloudforet-io'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

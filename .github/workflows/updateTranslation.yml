@@ -7,7 +7,7 @@
 #jobs:
 #  build:
 #    runs-on: ubuntu-latest
-#    if: github.repository_owner == 'spaceone-dev' && github.ref == 'refs/heads/master'
+#    if: github.repository_owner == 'cloudforet-io' && github.ref == 'refs/heads/master'
 #    steps:
 #      - name: git clone
 #        uses: actions/checkout@v2
